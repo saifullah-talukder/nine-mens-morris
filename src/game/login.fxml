@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="534.0" prefWidth="693.0" style="-fx-background-color: #223344;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.loginController">
+   <children>
+      <Label layoutX="179.0" layoutY="138.0" prefHeight="39.0" prefWidth="95.0" text="Username:" textFill="WHITE">
+         <font>
+            <Font name="Eras Medium ITC" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="180.0" layoutY="216.0" prefHeight="39.0" prefWidth="95.0" text="Password:" textFill="WHITE">
+         <font>
+            <Font name="Eras Medium ITC" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usenameField" layoutX="300.0" layoutY="146.0" prefHeight="25.0" prefWidth="172.0" style="-fx-background-color: #c2ced1;" />
+      <PasswordField fx:id="passwordField" layoutX="300.0" layoutY="220.0" prefHeight="25.0" prefWidth="172.0" style="-fx-background-color: #c2ced1;" />
+      <Button fx:id="resetButton" layoutX="231.0" layoutY="309.0" mnemonicParsing="false" onAction="#resetAction" prefHeight="39.0" prefWidth="86.0" text="Reset">
+         <font>
+            <Font name="Bodoni MT" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="loginButton" layoutX="347.0" layoutY="309.0" mnemonicParsing="false" onAction="#loginAction" prefHeight="39.0" prefWidth="86.0" text="Login">
+         <font>
+            <Font name="Bodoni MT" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="554.0" layoutY="465.0" mnemonicParsing="false" onAction="#backAction" prefHeight="31.0" prefWidth="78.0" text="Back">
+         <font>
+            <Font name="Bodoni MT" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

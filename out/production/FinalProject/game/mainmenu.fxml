@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane fx:id="backview" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="563.0" prefWidth="756.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.mainmenucontroller">
+   <children>
+      <ImageView fx:id="background" fitHeight="634.0" fitWidth="756.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@main%20menu.jpg" />
+         </image></ImageView>
+      <Button fx:id="playButton" layoutX="183.0" layoutY="267.0" mnemonicParsing="false" onAction="#clickPlay" prefHeight="68.0" prefWidth="132.0" text="Play">
+         <font>
+            <Font name="Brush Script MT Italic" size="24.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="helpButton" layoutX="183.0" layoutY="367.0" mnemonicParsing="false" onAction="#clickHelp" prefHeight="68.0" prefWidth="132.0" text="Help">
+         <font>
+            <Font name="Brush Script MT Italic" size="24.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="exitButton" layoutX="414.0" layoutY="367.0" mnemonicParsing="false" onAction="#clickExit" prefHeight="68.0" prefWidth="132.0" text="Exit">
+         <font>
+            <Font name="Brush Script MT Italic" size="24.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="statisticsButton" layoutX="414.0" layoutY="267.0" mnemonicParsing="false" onAction="#clickStatistics" prefHeight="68.0" prefWidth="132.0" text="Statistics">
+         <font>
+            <Font name="Brush Script MT Italic" size="24.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="logoutButton" layoutX="649.0" layoutY="495.0" mnemonicParsing="false" onAction="#clickLogout" prefHeight="39.0" prefWidth="78.0" text="Logout">
+         <effect>
+            <Glow>
+               <input>
+                  <Glow />
+               </input>
+            </Glow>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="534.0" prefWidth="693.0" style="-fx-background-color: #b195bc;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.signupController">
+   <children>
+      <Label layoutX="179.0" layoutY="154.0" prefHeight="39.0" prefWidth="95.0" text="Username:">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="180.0" layoutY="216.0" prefHeight="39.0" prefWidth="95.0" text="Password:">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usenameField" layoutX="300.0" layoutY="158.0" prefHeight="25.0" prefWidth="172.0" />
+      <PasswordField fx:id="passwordField" layoutX="300.0" layoutY="220.0" prefHeight="25.0" prefWidth="172.0" />
+      <Button fx:id="resetButton" layoutX="231.0" layoutY="305.0" mnemonicParsing="false" onAction="#resetAction" prefHeight="39.0" prefWidth="86.0" text="Reset">
+         <font>
+            <Font name="Bodoni MT" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="registerButton" layoutX="343.0" layoutY="305.0" mnemonicParsing="false" onAction="#registerAction" prefHeight="39.0" prefWidth="86.0" text="Register">
+         <font>
+            <Font name="Bodoni MT" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="514.0" layoutY="456.0" mnemonicParsing="false" onAction="#backAction" prefHeight="39.0" prefWidth="86.0" text="Back">
+         <font>
+            <Font name="Bodoni MT" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
